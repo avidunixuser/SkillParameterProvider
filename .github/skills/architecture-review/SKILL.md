@@ -10,6 +10,7 @@ Required inputs:
 - customer_name
 - workload_name
 - environment
+- location
 
 If any required inputs are missing:
 

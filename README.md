@@ -24,16 +24,18 @@ first time it is used.
 
 ## Tool Input
 
+A simple example skill, `architecture-review`, is included at `/.github/skills/architecture-review`
+
 ```json
 {
-  "required": ["subscription", "resourceGroup", "location"],
+  "required": ["customer_name", "workload_name", "environment"],
   "existing": {
     "location": "eastus"
   }
 }
 ```
 
-In this example, the user is prompted for `subscription` and `resourceGroup`.
+In this example, the user is prompted for `customer_name`, `workload_name` and `environment`.
 The existing `location` value is retained. If the user cancels or declines the
 form, the response includes the resulting action in `status`.
 
