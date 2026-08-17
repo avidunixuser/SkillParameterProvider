@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "parameter-provider": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/server.js"
+      ]
+    }
+  }
+}
