@@ -13,8 +13,8 @@ JSON.
 1. Install dependencies:
    Configure npm to use the Microsoft package feed proxy:
 
-   [https://packagefeedproxy.microsoft.io/npm/] 
-   (https://packagefeedproxy.microsoft.io/npm/)
+       [https://packagefeedproxy.microsoft.io/npm/]
+       (https://packagefeedproxy.microsoft.io/npm/)
    
    ```sh
    npm config set registry https://packagefeedproxy.microsoft.io/npm/
