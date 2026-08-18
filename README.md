@@ -11,18 +11,16 @@ JSON.
 ## Setup
 
 1. Install dependencies:
-
    Configure npm to use the Microsoft package feed proxy:
 
-       [https://packagefeedproxy.microsoft.io/npm/]
-       (https://packagefeedproxy.microsoft.io/npm/)
+   [https://packagefeedproxy.microsoft.io/npm/] (https://packagefeedproxy.microsoft.io/npm/)
+   
+   ```sh
+   npm config set registry https://packagefeedproxy.microsoft.io/npm/
+   npm install
+   ```
 
-        ```sh
-        npm config set registry https://packagefeedproxy.microsoft.io/npm/
-        npm install
-        ```
-
-2. Open this repository as a workspace in VS Code.
+3. Open this repository as a workspace in VS Code.
 
 The shared [`.vscode/mcp.json`](.vscode/mcp.json) configuration starts the
 server with Node.js. VS Code may ask you to trust and start the MCP server the
