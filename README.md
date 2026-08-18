@@ -12,7 +12,7 @@ JSON.
 
 1. Install dependencies:
 
-Configure npm to use the Microsoft package feed proxy:
+   Configure npm to use the Microsoft package feed proxy:
 
     [https://packagefeedproxy.microsoft.io/npm/]
     (https://packagefeedproxy.microsoft.io/npm/)
