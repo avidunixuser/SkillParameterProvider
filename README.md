@@ -17,10 +17,10 @@ JSON.
        [https://packagefeedproxy.microsoft.io/npm/]
        (https://packagefeedproxy.microsoft.io/npm/)
 
-   ```sh
-  npm config set registry https://packagefeedproxy.microsoft.io/npm/
-  npm install
-   ```
+        ```sh
+        npm config set registry https://packagefeedproxy.microsoft.io/npm/
+        npm install
+        ```
 
 2. Open this repository as a workspace in VS Code.
 
